@@ -1,0 +1,22 @@
+.row{
+margin-left: 20px;
+}
+.movieRow{
+display: flex;
+overflow-x: scroll;
+}
+.movie{
+    height: 300px;
+    width: 100%;
+    margin-right: 10px;
+    transition: .3s ease-in;
+}
+.movieRow::-webkit-scrollbar{
+    display: none;
+}
+.movie:hover{
+    transform: scale(1.08);
+}
+.postermovie{
+    height: 200px;
+}
